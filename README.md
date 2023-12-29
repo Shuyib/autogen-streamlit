@@ -20,30 +20,6 @@ docker build -t streamlit-app .
 ```bash
 docker run -p 8502:8502 streamlit-app
 ```
-
-Here's a basic README for your project:
-
-```markdown
-# Streamlit Application
-
-This is a Streamlit application, containerized using Docker. The application is served on port 8502.
-
-## Prerequisites
-
-- Docker
-- Python 3.10
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-### Clone the repository
-
-```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-```
-
 ### Build the Docker image
 
 ```bash
