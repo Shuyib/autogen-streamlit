@@ -20,21 +20,6 @@ docker build -t streamlit-app .
 ```bash
 docker run -p 8502:8502 streamlit-app
 ```
-### Build the Docker image
-
-```bash
-docker build -t streamlit-app .
-```
-
-This will build the Docker image, and tag it as `streamlit-app`.
-
-### Run the Docker container
-
-```bash
-docker run -p 8502:8502 streamlit-app
-```
-
-This will run the Docker container, with the Streamlit app accessible at `http://localhost:8502`.    
 
 ## Application Health Check
 
